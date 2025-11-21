@@ -1,49 +1,42 @@
-# 🤖 Business Intelligence Assistant
+# Mr Vivian's Business Intelligence Assistant
 
-> **An AI-powered chatbot that helps you create reports, understand metrics, and get business intelligence guidance - completely FREE!**
+An AI-powered chatbot I built to help business analysts create reports, understand metrics, and get business intelligence guidance - completely free using Ollama.
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-2.3.3-green.svg)](https://flask.palletsprojects.com/)
 
----
+## Why I Built This
 
-## 📖 What Is This?
+As a business analyst, I was spending 4-6 hours on tasks that should take 30 minutes. I built this to solve my own daily problem - constantly switching between tools, Googling metric definitions, and figuring out report structures.
 
-A **Business Intelligence Assistant** that acts as your AI consultant for:
-- 📊 Creating report outlines and structures
-- 📈 Explaining business metrics and KPIs
-- 🔍 Providing data analysis guidance
-- 📝 Generating presentation frameworks
-- 💡 Answering business intelligence questions
+**Before:** 4-6 hours per report  
+**After:** 1.5-2 hours per report
 
-**No API keys needed!** Uses Ollama (free, local AI) - works completely offline.
+It's now part of my daily workflow and saves me hours every week. No API keys needed - uses Ollama (free, local AI) so it works completely offline.
 
----
+## What It Does
 
-## 🎯 The Problem It Solves
+- Generates report outlines in seconds
+- Explains business metrics with formulas and examples
+- Provides data analysis guidance
+- Creates presentation structures
+- Answers business intelligence questions in plain English
 
-**Daily Challenge:** Business analysts spend 4-6 hours creating reports, explaining metrics, and structuring presentations. This involves:
-- Switching between multiple tools (Excel, Power BI, PowerPoint)
-- Constantly Googling metric definitions
-- Figuring out report structures
-- Explaining complex concepts to stakeholders
+## Screenshots
 
-**Solution:** This chatbot provides instant guidance, saving **70-80% of your time** while improving quality and consistency.
+### Main Interface
+![Main Interface](Screenshots/Assistant%20Interface.jpeg)
 
----
+### Example Usage - Asking a Question
+![Asking a Question](Screenshots/Business%20Assistant%20Queried.png)
 
-## ✨ Features
+### Loading State
+![Thinking](Screenshots/Business%20Assistant%20thinking%20about%20query.png)
 
-- ✅ **100% FREE** - No API keys, no credits needed
-- ✅ **Works Offline** - Uses local AI (Ollama)
-- ✅ **Natural Language** - Ask questions in plain English
-- ✅ **Professional Output** - Formatted responses ready for business use
-- ✅ **Multiple Use Cases** - Reports, metrics, analysis, presentations
-- ✅ **Clean Interface** - Modern, easy-to-use web UI
+### Example Response - Churn Rate Explanation
+![Churn Rate Explanation](Screenshots/Result%20of%20Query%20on%20Churn%20Rate.png)
 
----
-
-## 🚀 Quick Start (5 Minutes)
+## Quick Start
 
 ### Step 1: Install Python
 Make sure you have Python 3.8 or higher installed.
@@ -90,51 +83,46 @@ Open http://localhost:5000 in your browser
 http://localhost:5000
 ```
 
-**That's it!** You should see the chat interface. Start asking questions! 🎉
+**That's it!** You should see the chat interface. Start asking questions!
 
----
-
-## 💬 How to Use
+## How to Use
 
 ### Basic Usage
-
-1. **Type your question** in the input box at the bottom
-2. **Press Enter** or click "Send"
-3. **Wait for response** (usually 10-30 seconds)
-4. **Read the answer** - it's formatted and ready to use!
+1. Type your question in the input box at the bottom
+2. Press Enter or click "Send"
+3. Wait for response (usually 10-30 seconds)
+4. Read the answer - it's formatted and ready to use!
 
 ### Example Questions
 
-#### 📊 Report Generation
+**Report Generation:**
 ```
 "Create a quarterly sales report outline"
 "Help me create a presentation about Q4 performance"
 "Generate a customer analysis report structure"
 ```
 
-#### 📈 Metric Explanations
+**Metric Explanations:**
 ```
 "What is customer churn rate and how do I calculate it?"
 "Explain revenue vs profit in simple terms"
 "What does ROI mean in business?"
 ```
 
-#### 🔍 Analysis Guidance
+**Analysis Guidance:**
 ```
 "I have sales data for 2024, what should I analyze?"
 "What metrics should I track for customer retention?"
 "Help me plan an analysis of our marketing campaigns"
 ```
 
-#### 📝 Presentation Help
+**Presentation Help:**
 ```
 "Help me create a presentation about our Q4 performance for the board meeting"
 "I need to explain why sales increased 15%, create a presentation structure"
 ```
 
----
-
-## 🖥️ Accessing the Application
+## Accessing the Application
 
 Once the application is running, access it at:
 
@@ -147,13 +135,11 @@ Once the application is running, access it at:
 
 **Important:** The application must be running (Step 5) for the website to work!
 
----
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 bi-assistant/
-├── app_ollama.py          # Main application (USE THIS ONE!)
+├── app_ollama.py          # Main application
 ├── templates/
 │   └── index.html         # Web interface
 ├── prompts/               # AI prompt templates
@@ -167,11 +153,9 @@ bi-assistant/
 └── README.md             # This file
 ```
 
----
+## Troubleshooting
 
-## 🐛 Troubleshooting
-
-### "python is not recognized"
+### "python is not recognised"
 - Python is not installed or not in PATH
 - Reinstall Python and make sure to check "Add Python to PATH"
 - Or try: `python3` instead of `python`
@@ -206,73 +190,46 @@ pip install -r requirements.txt
 3. Try: `http://127.0.0.1:5000` instead
 4. Make sure you didn't close the terminal window
 
-### "File not found" or "can't open file"
-- You're not in the correct folder
-- Navigate to the project folder (Step 4)
-- Make sure you see `app_ollama.py` when you type `dir` or `ls`
+## Quick Reference
 
-### Application starts but responses are slow
-- First response is always slower (model loading)
-- Subsequent responses are faster
-- Make sure your computer has enough RAM (4GB+ recommended)
-
----
-
-## 📋 Quick Reference
-
-### Starting the App:
+**Starting the App:**
 ```bash
 cd bi-assistant
 python app_ollama.py
 ```
 Then open: http://localhost:5000
 
-### Common Questions:
+**Common Questions:**
 - "Create a [type] report outline"
 - "What is [metric] and how do I calculate it?"
 - "I have [data], what should I analyze?"
 - "Help me create a presentation about [topic]"
 
-### Stop the Application:
+**Stop the Application:**
 - Press `Ctrl + C` in the terminal window
 
----
-
-## 🎯 Summary
+## Summary
 
 **To run the website:**
-1. ✅ Python installed
-2. ✅ Ollama installed
-3. ✅ Model downloaded (`ollama pull llama3`)
-4. ✅ Dependencies installed (`pip install -r requirements.txt`)
-5. ✅ Application running (`python app_ollama.py`)
-6. ✅ Browser open at `http://localhost:5000`
+1. Python installed
+2. Ollama installed
+3. Model downloaded (`ollama pull llama3`)
+4. Dependencies installed (`pip install -r requirements.txt`)
+5. Application running (`python app_ollama.py`)
+6. Browser open at `http://localhost:5000`
 
-**That's it!** You're ready to use the Business Intelligence Assistant! 🚀
+**That's it!** You're ready to use the Business Intelligence Assistant!
 
----
-
-## 📄 License
+## License
 
 This project is open source and available for portfolio use.
 
----
-
-## 👤 Author
+## Author
 
 **Vivian Ferguson**
-- Portfolio project demonstrating AI integration and prompt engineering
-- Created for academic/portfolio purposes
+
+I built this to solve a real problem I face as a business analyst. It's a portfolio project demonstrating my skills in AI integration, prompt engineering, and full-stack development with Flask.
 
 ---
 
-## 🙏 Acknowledgments
-
-- **Ollama** - For providing free, local LLM capabilities
-- **Flask** - Excellent Python web framework
-- **Business Intelligence Community** - For inspiration and use cases
-
----
-
-**Ready to use?** Follow the Quick Start guide above and start chatting! 🚀
-
+**Ready to use?** Follow the Quick Start guide above and start chatting!
