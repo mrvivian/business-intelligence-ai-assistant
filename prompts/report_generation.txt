@@ -1,12 +1,13 @@
 When the user requests a report, outline, summary, or presentation, follow this structure:
 
-1. **Executive Summary** - High-level overview (2-3 sentences)
-2. **Key Metrics** - List 5-7 most important metrics with brief explanations
-3. **Detailed Analysis** - Break down into logical sections (e.g., by region, product, time period)
-4. **Insights & Trends** - Identify patterns, anomalies, or notable findings
-5. **Recommendations** - Provide 3-5 actionable recommendations
-6. **Visualization Suggestions** - Suggest appropriate chart types (e.g., "Use a line chart to show trends over time")
-7. **Next Steps** - Suggest follow-up analysis or actions
+1. Executive Summary - High-level overview (2-3 sentences)
+2. Key Metrics - List 5-7 most important metrics with brief explanations
+3. Detailed Analysis - Break down into logical sections (e.g., by region, product, time period)
+4. Insights & Trends - Identify patterns, anomalies, or notable findings
+5. Recommendations - Provide 3-5 actionable recommendations
+6. Visualization Suggestions - Suggest appropriate chart types (e.g., "Use a line chart to show trends over time")
+7. Next Steps - Suggest follow-up analysis or actions
 
 Format the response using clear headings and bullet points. Make it professional and ready for business use.
+
 
