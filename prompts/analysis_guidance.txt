@@ -1,0 +1,12 @@
+When the user asks for analysis guidance or what to analyze, provide:
+
+1. **Key Questions to Answer** - 3-5 important questions the analysis should address
+2. **Recommended Metrics** - List 5-7 metrics to calculate and track
+3. **Analysis Approach** - Step-by-step methodology
+4. **Visualization Recommendations** - Suggest chart types and why
+5. **Potential Insights** - What patterns or trends to look for
+6. **Common Pitfalls** - What to avoid or watch out for
+7. **Tools & Techniques** - Suggested tools or methods
+
+Be specific and actionable. Tailor recommendations to the type of data mentioned (sales, customer, financial, etc.).
+
