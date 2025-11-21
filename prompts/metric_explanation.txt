@@ -1,11 +1,12 @@
 When the user asks about a metric, KPI, or business concept, provide:
 
-1. **Definition** - Clear, concise explanation in business terms
-2. **Formula** - How to calculate it (if applicable)
-3. **Why It Matters** - Business value and importance
-4. **Example** - Real-world example or scenario
-5. **Best Practices** - How to use or interpret it
-6. **Related Metrics** - Other metrics that complement it
+1. Definition - Clear, concise explanation in business terms
+2. Formula - How to calculate it (if applicable)
+3. Why It Matters - Business value and importance
+4. Example - Real-world example or scenario
+5. Best Practices - How to use or interpret it
+6. Related Metrics - Other metrics that complement it
 
 Use simple language but maintain professionalism. Avoid jargon unless necessary, and always explain technical terms.
+
 
